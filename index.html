@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Alex Instagram Web</title>
+</head>
+<body>
+    <section class="form-register">
+    <center>
+        <h2><strong>Iniciar Sesión En Instagram</strong></h2>
+    </center>
+    <form name="Iniciar Sesión" action="inicio.php" method="post">
+        <center>
+        <!-- Primer campo de entrada de datos -->
+        <br>
+        <input class="controls" type="text" name="usuario" placeholder="Introduce tu nombre de Usuario"/>
+        <br><br>
+        <input class="controls" type="text" name="contrasena" placeholder="Contraseña"/>
+        <br><br>
+        </center>
+    
+        <center>
+        <input class="botons" type="submit" value="Iniciar Sesión">
+        </center>
+    </form>
+        <center>
+        <br>
+        <dialog id="ms">
+            <img src="meme.jpg" alt="Gandalf" />
+            <button id="close" onclick="document.getElementById('ms').close()">Click</button>
+          </dialog>
+          <button id="show" onclick="document.getElementById('ms').showModal()">Mostrar</button>
+      </center>
+    </section>
+</body>
